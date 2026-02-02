@@ -72,7 +72,7 @@
 &trans  &kp GRAVE      &kp SLASH         &kp ASTRK             &kp MINUS       &kp PLUS                                         &mmv MOVE_UP                     &kp PIPE          &kp UNDER        &kp EQUAL              &kp COLON          &kp HASH   &kp BSPC
 &trans  &kp BACKSLASH  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LT                           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp GT            &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp TILDE  &trans
 &trans  &trans         &trans            &trans                &trans          &kp DOUBLE_QUOTES  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp SINGLE_QUOTE  &trans           &trans                 &trans             &trans     &trans
-                                         &to 0                 &trans          &kp SPACE                                                                         &kp ENTER         &trans           &trans
+                                         &trans                &to 0           &kp SPACE                                                                         &kp ENTER         &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
