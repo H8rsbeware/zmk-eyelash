@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - LEFT WIN
   - A
   - S
   - D
@@ -43,13 +43,13 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
-  - LGUI
   - '&td_mo1'
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: QWERTY}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td_mo2'
-  NUMBER:
+  Symbol:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - {t: /, s: '?'}
@@ -92,13 +92,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: QWERTY, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: QWERTY, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SYMBOL:
+  Edit:
   - $$mdi:keyboard-tab$$
   - '1'
   - {t: '2', s: '@'}
@@ -147,7 +147,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: QWERTY, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  '3':
+  Function:
   - F1
   - F2
   - F3
@@ -190,14 +190,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
-- p: [43, 46]
-  k: '3'
+- p: [42, 47]
+  k: Function
