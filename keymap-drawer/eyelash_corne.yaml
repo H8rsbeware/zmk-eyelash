@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-tab$$
   - '&td_mo1'
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: QWERTY}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td_mo2'
+  - {t: '$$mdi:backspace$$', h: Edit}
+  - $$mdi:backspace-reverse-outline$$
   Symbol:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
@@ -129,7 +129,7 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Edit, h: toggle}
   - CUT
   - COPY
   - PASTE
@@ -138,14 +138,14 @@ layers:
   - UNDO
   - REDO
   - LOCK
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Edit, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {t: QWERTY, h: toggle}
+  - {t: QWERTY, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Function:
   - F1
